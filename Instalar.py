@@ -1,0 +1,1 @@
+print("Si puede ver este mensaje, Python ha sido instalado exitosamente.")  
