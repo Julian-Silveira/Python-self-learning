@@ -9,5 +9,5 @@ print(type("Esto es un string")) # Tipo 'str'
 print(type(5)) # Tipo 'int' o 'entero'
 print(type(1.5)) # Tipo 'float' o 'no entero'
 print(type(True)) # Tipo 'bool' o 'booleano'
-print(type(False)) #Tipo 'bool' o 'booleano'
-#quede en el minuto 47 del video de blas 
+print(type(3 + 1j)) #Tipo 'complex' o 'complejo'
+
