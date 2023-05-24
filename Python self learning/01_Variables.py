@@ -39,5 +39,7 @@ age = "Julian"
 
 print (name)
 print (age) #   Esto puede generar problemas porque se pueden sobre-escribir variables existentes como en este caso.
-
-#Quede en el minuto 1.28.00 del video de blais
+#Forzamos el tipo? No. Las siguientes lineas lo demuestran, esto tiene buena utilizacion en los inputs
+address: str = "Mi direccion" 
+adress = 32 
+print(type(address))
