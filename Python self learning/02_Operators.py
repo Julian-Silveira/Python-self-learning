@@ -12,3 +12,8 @@ print("Hola " + "Python" + ", Que tal?") ## Los operadores pueden tambien funcio
 print("Hola " + str(5)) ## Definir varial numerica como tipo string, el dato se transforma
 print("Hola " * 5) # Multiplicar strings
 print("Hola " * (2 * 3)) # Operar con operadores 
+
+my_int = 2,5 * 2
+print("Hola " * int(my_int))
+
+### Operadores Comparativos ###
