@@ -24,3 +24,20 @@ print(3 >= 4)
 print(3 <= 4)
 print(3 == 4)
 print(3 != 4)
+
+print("aaaa" > "bbbb") ## Ordenacion alfabetica (POR ASCII), no esta contando caracteres
+print(len("Hola") < len("Python")) ### Cuenta caracteres
+print("Hola" >= "Python") 
+print("Hola" <= "Python")
+print("Hola" == "Python")
+print("Hola" != "Python")
+
+### Operadores Logicos ###
+
+print(3 > 4 and "Hola" > "Python")
+print(3 > 4 or "Hola" > "Python")
+
+print(3 < 4 and "Hola" < "Python")
+print(3 < 4 or "Hola" < "Python")
+print(not(3 > 4)) ## El not esta negando la condicion, en este caso > no falso es verdadero o "Contrario de falso es verdadero"
+
