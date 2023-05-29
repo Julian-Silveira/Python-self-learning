@@ -13,7 +13,14 @@ print("Hola " + str(5)) ## Definir varial numerica como tipo string, el dato se 
 print("Hola " * 5) # Multiplicar strings
 print("Hola " * (2 * 3)) # Operar con operadores 
 
-my_int = 2,5 * 2
-print("Hola " * int(my_int))
+my_float = 2.5 * 2
+print("Hola " * int(my_float))
 
 ### Operadores Comparativos ###
+
+print(3 > 4)
+print(3 < 4)
+print(3 >= 4)
+print(3 <= 4)
+print(3 == 4)
+print(3 != 4)
